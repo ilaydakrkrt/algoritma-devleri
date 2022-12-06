@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication1;
+
+/**
+ *
+ * @author USER
+ */import java.util.Scanner;
+public class kök2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        double t=1;
+        Scanner input = new Scanner (System.in);
+        System.out.print("Bölme sayısı:");
+        int n = input.nextInt();
+        for(int i=0; i<n; i++)
+            t=2+1/t;
+        System.out.printf("Karekök(2)=%f\n",1+1/t);
+    }
+    
+}
